@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+	    <title> Mensagem</title>
+	    <meta charset="UTF-8">
+	</head>
+	<body bgcolor="#FFEBCD">
+	<font color= "black"
+	
+	<fieldset>
+	   <legend>Fale com sua Maquiadora</legend>
+	     <p>
+		<label for="nome"> Nome</label>
+		<input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="off" maxlength="4" size="40" required=""/>
+		
+		</p>
+		<p>
+		<label for="email">Email</label>
+		<input type="email" name="email" placeholder="E-mail" autocomplete="off" required=""/>
+		</p>
+		<p>
+		 <label for="pass"> Digite sua senha </label>
+   		 <input type="password" id="pass" name="pass" placeholder="Senha" autocomplete="off" required=""/>
+		</p>
+		</fieldset>
+		<br>
+		<fieldset>
+		<legend> Deixe uma mensagem</legend>
+		<p>
+		  Assunto:<br>
+			
+		  <input type="radio" name="assunto" value="0" checked>Automaquiagem
+		  <input type="radio" name="assunto"  value"1">Maquiagem Normal
+		</p>
+		<p>
+		   Enviar para:<br>
+		   <input type="checkbox" name="Maquiadora" id="Maquiadora" checked>
+		   <label for="copia">Maquiadora</label><br/>
+
+		</p>
+		<p>
+		  <label for="tempo">Qual nota você dá para o serviço?</label><br>
+
+		  <input type="number" id="data" name="data" required=""/>
+		</p>
+		<p>
+		<label for="nome">Como você gosta de sua Maquiagem?</label>
+		<select id="UF" name="setor">
+		   <option value="">Selecione</option>
+		   <option value="SP">Simples</option>
+ 		   <option value="AC">Alta Cobetura</option>
+	           <option value="CP">Completa</option>
+
+		</select>
+		<p>
+		<label for="arquivo"> Foto do resultado</label>
+		<input type="file" name="FR" id="FR"><br>
+		</p>
+		  <p>
+			<label for="mensagem">Deixe um feedback</label><br>
+			<textarea type="text" id="mensagem" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea>
+		</p>
+		
+		</fieldset>
+		   <p align="center">
+			<input type="submit" name="Enviar" value="Enviar">
+			<input type="reset" name="Limpar" value="Limpar">
+		  </p>
+        	</fieldset>
+             </form>
+          </body>
+       </html>
+
+			
